@@ -1,0 +1,6 @@
+print("welcome to mile converter😉")
+Speed=input("enter your speed im miles per hour🚗: ")
+Float=float(Speed)# there is another way to convert to float 
+mps=round(Float*0.4474 ,2)
+#dec="{:.2f}".format(mps)- two ways of rounding off
+print("your speed in meter per second is: " ,mps)
